@@ -4,8 +4,8 @@ import Countdown from "./Countdown";
 
 const App = () => (
   <div>
-    <Countdown />
-    <Countdown />
+    <Countdown name="śniadanie" time="07:00" />
+    <Countdown name="obiad" time="15:00" />
   </div>
 );
 
