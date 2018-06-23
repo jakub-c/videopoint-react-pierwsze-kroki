@@ -1,0 +1,32 @@
+.edit-event {
+  background: #f38630;
+  padding: 20px;
+}
+
+.edit-event__input-group {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.edit-event__input-group label {
+  display: inline-block;
+  width: 25%;
+}
+
+.edit-event__input-group input {
+  border: 0;
+  padding: 5px;
+  width: 70%;
+}
+
+.edit-event button {
+  background: transparent;
+  border: solid 3px #fff;
+  color: #fff;
+  font-size: 1.4rem;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 100%;
+}
