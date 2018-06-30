@@ -20,6 +20,7 @@ class App extends Component {
     this.handleEditEvent = this.handleEditEvent.bind(this);
     this.handleSaveEvent = this.handleSaveEvent.bind(this);
     this.handleRemoveEvent = this.handleRemoveEvent.bind(this);
+    this.handleEditInit = this.handleEditInit.bind(this);
   }
 
   handleEditEvent(val) {
@@ -49,6 +50,12 @@ class App extends Component {
     }));
   }
 
+  handleEditInit(id) {
+    this.setState(prevState => ({
+      editedEvent: { ...prevState.events[id] }
+    }));
+  }
+
   render() {
     const events = this.state.events.map(el => {
       return (
@@ -59,6 +66,7 @@ class App extends Component {
           hour={el.hour}
           minute={el.minute}
           onRemove={id => this.handleRemoveEvent(id)}
+          onEditInit={id => this.handleEditInit(id)}
         />
       );
     });

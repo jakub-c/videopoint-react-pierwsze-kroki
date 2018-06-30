@@ -8,6 +8,7 @@ const Countdown = props => (
   <div className="countdown">
     <strong>{props.name}</strong> - {props.hour}:{props.minute}
     <div className="countdown__icons">
+      <i className="icon edit" onClick={() => props.onEditInit(props.id)} />
       <i className="icon times" onClick={() => props.onRemove(props.id)} />
     </div>
   </div>
