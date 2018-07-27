@@ -23,10 +23,15 @@
 .edit-event button {
   background: transparent;
   border: solid 3px #fff;
+  cursor: pointer;
   color: #fff;
   font-size: 1.4rem;
   margin-top: 10px;
   padding: 5px;
   text-transform: uppercase;
   width: 100%;
+}
+
+.edit-event button:disabled {
+  opacity: 0.4;
 }
