@@ -15,3 +15,7 @@
 .countdown:hover .countdown__icons {
   display: block;
 }
+
+.countdown:hover .overlay span {
+  display: block;
+}
