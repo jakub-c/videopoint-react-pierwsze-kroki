@@ -49,7 +49,6 @@ class App extends Component {
   }
 
   handleEditEvent(val) {
-    // this.setState({ editedEvents: val });
     this.setState(prevState => {
       return {
         editedEvent: Object.assign(prevState.editedEvent, val)
@@ -82,16 +81,6 @@ class App extends Component {
       },
       () => localStorage.setItem("events", JSON.stringify(this.state.events))
     );
-
-    // this.setState(prevState => ({
-    //   events: [...prevState.events, prevState.editedEvent],
-    //   editedEvent: {
-    //     id: uniqid(),
-    //     name: "",
-    //     hour: "",
-    //     minute: ""
-    //   }
-    // }));
   }
 
   handleRemoveEvent(id) {
