@@ -52,7 +52,7 @@ class App extends Component {
 
   handleEditInit(id) {
     this.setState(prevState => ({
-      editedEvent: { ...prevState.events[id] }
+      editedEvent: { ...prevState.events.find(el => el.id === id) }
     }));
   }
 
