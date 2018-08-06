@@ -1,3 +1,19 @@
+# Kurs React Pierwsze Kroki
+
+Pliki projektu dla kursu React pierwsze kroki. Kurs wideo znajduje się na platformie videopoint.
+
+## Przydatne informacje
+
+Projekt najlepiej stworzyć zgodnie z instrukcjami zawartymi w kursie.
+
+W razie problemów należy pobrać pliki z tego repozytorium i zainstalować potrzebne biblioteki z pomocą komendy `npm install`
+
+Podczas pisania tego projektu każda większa zmiana została przypisana do odpowiedniej 'gałęzi' (branch) w tym repozytorium. W związku z tym, można pobrać konkretną wersję projektu jeśli natrafisz na jakieś problemy podczas tego kursu. Jak odwołać się do odpowiedniej 'gałęzi' (branch) omawiamy w plikach wideo.
+
+Poniżej znajduje się plik README wygenerowany przez Create React App. Pozostawiam go gdyby uczestnicty kursu chcieli dowiedzieć się więcej o możliwościach jakie daje ten moduł.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
